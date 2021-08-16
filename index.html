@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Yard</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/slick.css">
+    <link rel="stylesheet" href="CSS/slick-theme.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+            <!-- navbar -->
+        
+
+            <nav class="navbar fixed-top navbar-expand-lg ">
+                <div class="container-fluid">
+                    <p id="title-bar" class="mt-3">Living Yards Develpments</p>
+                    <div class=" me-5">
+                        <img  class="mt-5"  id= "logo" src="assets/logo.png" alt="">
+                    </div>
+                    <img id="menu-bar" src="assets/menu.png" alt="" onclick="togglemenu()">
+                    <img id="close" src="assets/close.png" alt="" onclick="togglemenu()">
+                    <img id="colorLogo" src="assets/Group 41.png" alt="">
+                    <ul class="navbar-nav" id="menuList">
+                        <li class="nav-item">
+                        <a class="nav-link a-link" aria-current="page" data-scroll="second-section" >About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link p-link" data-scroll="third-section" >Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link c-link" data-scroll="contact-us" >Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- slider -->
+
+        <section id="slide">
+            <div class="header">
+                <div class="fade_slider">
+                    <div class="items">
+                        <img class="bg" src="assets/WhatsApp Image 2021-07-26 at 5.29.33 PM.jpeg">
+                    </div>
+                    <div class="items">
+                        <img class="bg" src="assets/WhatsApp Image 2021-07-26 at 5.29.24 PM.jpeg">
+                    </div>
+                    <div class="items">
+                        <img class="bg" src="assets/WhatsApp Image 2021-07-26 at 5.29.22 PM.jpeg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- title -->
+
+            <div class="container-fluid" id="title">
+                <h1 class="display-1">LIVING YARDS</h1>
+                <h5>Delivering practical luxury</h5>
+            </div>
+
+            <!-- footer -->
+
+            <div class="footer"> 
+                <div id="clipboard" class="container">
+                    <img class="menu img-fluid" src="assets/clipboard.png" alt="">
+                    <p>Inqury</p>
+                </div>
+                <div id="mouse">
+                    <img class="mouse-scroll" data-scroll="second-section" src="assets/mouse.png" alt="">
+                    <p>Scroll</p>
+                </div>
+                <div class="line">
+                    <span>Hotline</span><span>16477</span>
+                </div>
+            </div>  
+        </section>
+            
+
+        <!-- menu -->
+
+        <div id="menu" class="menu-form-bg">
+            <div class="menu-inqury">
+                <h5>Inquiry Form</h5>
+                <span><hr></span>
+                <img id="closeMenu" src="assets/close.png" alt="">
+            </div>
+            <form class="align-items-center" id="form">
+                <div class=" input menu-input">
+                    <div class="form-floating">
+                        <input type="text" class="form-control menu-control" id="floatingInput" placeholder="Fullname">
+                        <label class="label-menu" for="floatingInput">Fullname</label>
+                    </div>
+                </div>
+                
+                <div class="input menu-input">
+                    <div class="form-floating">
+                        <input type="email" class="form-control menu-control" id="floatingInput" placeholder="Email">
+                        <label class="label-menu"for="floatingInput">Email</label>
+                    </div>
+                </div>
+                
+                <div class="input menu-input">
+                    <div class="form-floating">
+                        <input type="text" class="form-control menu-control" id="floatingInput" placeholder="MobileNumber">
+                        <label class="label-menu" for="floatingInput">Mobile Number</label>
+                    </div>
+                </div>
+                
+                <div class="input menu-input">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select menu-select" id="inlineFormSelectPref">
+                        <option selected hidden>Prefreerd unit type</option>
+                        <option value="1">Penhouse</option>
+                        <option value="2">Penhouse</option>
+                        <option value="3">Penhouse</option>
+                    </select>
+                </div>
+                
+                <div class="input menu-input">
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select menu-select" id="inlineFormSelectPref">
+                        <option selected hidden>Prefreerd Time for Contacting</option>
+                        <option value="1">Morning</option>
+                        <option value="2">Afternon</option>
+                        <option value="3">Evening</option>
+                    </select>
+                </div>
+                
+                <div class="button menu-button">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+        </form> 
+</div>
+
+            <!--second section  -->
+
+        <section class="second-section">
+            <div class="container-fluid" id="about-us">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <img class="page-img" src="assets/Group 41.png" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="title">
+                            <h1 class="display-4">ABOUT US</h1>
+                            <p>Living Yards Developments is owned by two mega economic establishments; AM  <br>
+                                Group and Egyptian Swiss Group. With above 30 years of expertise in the fields of <br>
+                                manufacturing & trading, 3000 employees and annual turnover of more than 4 <br>
+                                billion EGP, the 2 groups guarantees a very strong financial and technical support <br>
+                                to the company. Living Yards Developments is entering the market with a new <br>
+                                inspiring vision. Introducing a unique concept to the real estate market. ‘Practical <br>
+                                Luxury’ is the mix of value for money with lavishness and diversity with luxury.
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-evenly lazy event">
+                            <img src="assets/The loft.png" alt="">
+                            <img src="assets/loft downtown.png" alt="">
+                            <img src="assets/LCC.png" alt="">
+                            <img src="assets/The loft.png" alt="">
+                            <img src="assets/loft downtown.png" alt="">
+                            <img src="assets/LCC.png" alt="">
+                        </div>
+                        <div class="sec-footer" >                             
+                            <div class="number">
+                                <span>01</span><span><hr></span><span>02</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- third section -->
+
+        <section class="third-section" id="projects">
+            <div class="container" id="the-loft">
+                <div class="row align-items-end" id="upper-page">
+                    <div class="col-12 d-flex align-items-center justify-content-between" id="loft">
+                        <img class="loft" src="assets/The loft.png" alt="">
+                    </div>
+                </div>
+                <div class="row" id="down-page">
+                    <div class="col-lg-6 th">
+                        <div class="loft-section">
+                            <h1>THE LOFT RESIDENTIAL</h1>
+                            <p>The LOFT is LIVING YARD'S first project located in the new <br>
+                                capital, extended on a surface of 23 acres and offering real lofts in <br>
+                                luxurios buildings with Post Modern British Architecture. Luxury <br>
+                                is a state of great comfort where there is no roof for imagination; <br>
+                                fantasies become the only dominant thing. THE LOFT is a wolrd <br>
+                                Where imagination meets real life.</p>
+                            </div>
+                            
+                            
+                            <div class="brochure">
+                                <h3>DOWNLOAD BROCHURE</h3>
+                        </div>
+                        <div class="updates">
+                            <h3>CONSTRUCTION UPDATES</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 th-slider">
+                        <div class="th-section-slider">
+                        <div class="slider">
+                            <div>
+                                <img src="assets/WhatsApp Image 2021-07-26 at 5.29.22 PM.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/WhatsApp Image 2021-07-26 at 5.29.24 PM.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/WhatsApp Image 2021-07-26 at 5.29.33 PM.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- forth section -->
+
+        <section class="forth-section">
+            <div class="container">
+                <div class="row align-items-end" id="upper-page">
+                    <div class="col-12 downtown">
+                        <img src="assets/loft downtown.png" alt="">
+                    </div>
+                </div>
+                <div class="row" id="down-page-d">
+                    <div class="col-6 fr-slider">
+                        <div class="fr-section-slider">
+                            <div class="slider">
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.33 PM.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.22 PM.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.24 PM.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                            <div class="downtown-section">
+                                <h1>THE LOFT DOWNTOWN</h1>
+                                <p>The Loft is LIVING YARD'S first project located in the new <br>
+                                    capital, extended on a surface of 23 acres and offering real lofts in <br>
+                                    luxurios buildings with Post Modern British Architecture. Luxury <br>
+                                    is a state of great comfort where there is no roof for imagination; <br>
+                                    fantasies become the only dominant thing. THE LOFT is a wolrd <br>
+                                    Where imagination meets real life.</p>
+                            </div>
+                            <div class="downtown-brochure">
+                                <h3>DOWNLOAD BROCHURE</h3>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- fifth section -->
+
+        <section class="fifth-section"> 
+            <div class="container">
+                <div class="row align-items-end" id="upper-page">
+                    <div class="col-12 LCC">
+                        <img src="assets/LCC.png" alt="">
+                    </div>
+                </div>
+                <div class="row" id="down-page">
+                    <div class="col-lg-6 fif">
+                        <div class="LCC-section">
+                            <h1>LOFT CAPITAL CANTER</h1>
+                            <p>Conveniently located on the outskirts of the compound, the loft <br>
+                                Capital Center is a 3 floor building with a 10,000 SQ meter space <br>
+                                providing a wide range of life style services and amenities to the <br>
+                                loft residents and visitors. With a strip boardwalk and an all- <br>
+                                glassed theme, the amenities tend to cover all the basic and <br>
+                                prime location among-st the R7 Distrivt.</p>
+                            </div>
+                        <div class="LCC-brochure">
+                            <h3>DOWNLOAD BROCHURE</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 fif-slider">
+                        <div class="fif-section-slider">
+                            <div class="slider">
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.33 PM.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.22 PM.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/WhatsApp Image 2021-07-26 at 5.29.24 PM.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us section -->
+
+                <section class="container-fluid" id="contact-us">
+                    <div class="row contact-us">
+                        <div class="col-lg-6" id="information">
+                            <div class="contact-title">
+                                <h1>CONTACT US</h1>
+                            </div>
+                            <div class="map">
+                                <img src="assets/download.png" alt="">
+                            </div>
+                            <div class="information">
+                                <div class="contact">
+                                    <div>
+                                        <h6>Head Office: 494-632-3467</h6>
+                                        <h6>Sales Office: 040-180-5376</h6>
+                                        <h6>Email Address: Sales@livingyards.com</h6>
+                                    </div>
+                                    <span><hr></span>
+                                    <div class="hotline">
+                                        <h6>Hotline</h6>
+                                        <h3>16477</h3>
+                                    </div>
+                                </div>
+                                
+                                <div class="media">
+                                    <h6>
+                                    Follow us
+                                    </h6>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><defs><style>.a{fill:#002445;}</style></defs><path class="a" d="M0,56V0H56V56Zm3.464-3.464H52.536V3.464H3.464Zm19.717-6.35v-18.2H19.513V21.865h3.668V16.859c0-.915-.185-7.044,7.721-7.044h5.585V16.19H32.381a1.777,1.777,0,0,0-1.634,1.466v4.187h5.732c-.231,3.211-.7,6.147-.7,6.147H30.717v18.2Z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><defs><style>.a{fill:#002445;}</style></defs><path class="a" d="M0,56V0H56V56Zm3.464-3.464H52.536V3.464H3.464Zm26.718-7.159h0Zm-19.9,0V21.927h7.795v23.45Zm28.111,0V32.831c0-3.151-1.127-5.3-3.948-5.3a4.263,4.263,0,0,0-4,2.851,5.336,5.336,0,0,0-.259,1.9v13.1h-7.8s.1-21.25,0-23.45h7.8V25.25a7.743,7.743,0,0,1,7.027-3.873c5.13,0,8.976,3.351,8.976,10.553V45.377ZM30.131,25.327h.051V25.25C30.167,25.276,30.145,25.3,30.131,25.327Zm-16.007-6.6a4.038,4.038,0,0,1-4.309-4.053c0-2.3,1.744-4.052,4.412-4.052a4.065,4.065,0,1,1-.051,8.1Z"/></svg>     
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"><defs><style>.a{fill:#002445;}</style></defs><path class="a" d="M0,56V0H56V56Zm3.464-3.464H52.536V3.464H3.464ZM28,40.675a122.32,122.32,0,0,1-13.619-.5h0a4.592,4.592,0,0,1-3.93-3.575A38.894,38.894,0,0,1,9.814,28a38.944,38.944,0,0,1,.641-8.6,4.59,4.59,0,0,1,3.928-3.574,122.273,122.273,0,0,1,13.622-.5,122.215,122.215,0,0,1,13.618.5A4.594,4.594,0,0,1,45.557,19.4a38.88,38.88,0,0,1,.629,8.6,38.921,38.921,0,0,1-.636,8.6,4.6,4.6,0,0,1-3.932,3.575,114.535,114.535,0,0,1-12.68.5Zm-4.691-7.029,11.562-6L23.307,21.618Z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-6 form">
+                            <div class="form-bg">
+                                <div class="inqury">
+                                    <h5>Inquiry Form</h5>
+                                    <span><hr></span>
+                                </div>
+                                <form class="col row-cols-lg-auto g-3 align-items-center" id="form">
+                                    <div class="col-8 input">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="Fullname">
+                                            <label for="floatingInput">Fullname</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-8 input">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                            <label for="floatingInput">Email</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-8 input">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="MobileNumber">
+                                            <label for="floatingInput">Mobile Number</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-8 input">
+                                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                                        <select class="form-select" id="inlineFormSelectPref">
+                                            <option selected hidden>Prefreerd unit type</option>
+                                            <option value="1">Penhouse</option>
+                                            <option value="2">Penhouse</option>
+                                            <option value="3">Penhouse</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="col-8 input">
+                                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                                        <select class="form-select" id="inlineFormSelectPref">
+                                            <option selected hidden>Prefreerd Time for Contacting</option>
+                                            <option value="1">Morning</option>
+                                            <option value="2">Afternon</option>
+                                            <option value="3">Evening</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="col-5 button">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </form> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copy-right">
+                        <p>@copy Right Living Yard, All Right Reserved</p>
+                        <p>Made with nuts by <span>Social nuts</span></p>
+                    </div>
+                </section> 
+    <script src="JS/jquery-3.6.0.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/all.min.js"></script>
+    <script src="JS/slick.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
