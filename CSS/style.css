@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 #slide {
   height: 100vh;
@@ -114,17 +115,17 @@ h5 {
   justify-content: space-between;
 }
 #clipboard {
-    position: fixed;
-    height: 50px;
-    width: 50px;
-    left: 0%;
-    display: flex;
-    bottom: 0;
-    margin: 25px;
-    background-color: #ffffff;
-    cursor: pointer;
-    flex-direction: column;
-    align-items: center;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  left: 0%;
+  display: flex;
+  bottom: 0;
+  margin: 25px;
+  background-color: #ffffff;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
 }
 #clipboard p {
   font-size: 10px;
@@ -152,9 +153,9 @@ h5 {
 }
 .menu {
   position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .line {
   color: #ffffff;
@@ -688,9 +689,9 @@ h5 {
 }
 .inqury {
   transform: rotate(-90deg);
-    margin-top: 20%;
-    left: 50%;
-    position: absolute;
+  margin-top: 20%;
+  left: 50%;
+  position: absolute;
 }
 .inqury span hr {
   color: white;
@@ -825,7 +826,7 @@ option {
 }
 .menu-input {
   margin-top: 25px;
-    width: 350px;
+  width: 350px;
 }
 .menu-inqury img {
   margin: 10px;
@@ -860,6 +861,8 @@ option {
   flex-direction: row;
   justify-content: space-between;
   background-color: #ffffff;
+  max-height: 15vh;
+  padding-top: 2%;
 }
 .copy-right p {
   margin: 30px 15px;
@@ -1158,4 +1161,60 @@ option {
     width: 100px;
   }
 }
-
+@media only screen and (min-width: 1900px) {
+  #title-bar {
+    font-size: 22px;
+  }
+  #logo {
+    width: 150px;
+    height: 175px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+  #title h1 {
+    font-size: 9rem;
+  }
+  #title h5 {
+    font-size: 1.5rem;
+  }
+  #mouse img {
+    height: 65px;
+    width: 45px;
+  }
+  #about-us {
+    padding-top: 10%;
+  }
+  #the-loft {
+    padding-top: 10%;
+  }
+  .contact-us {
+    padding-top: 10%;
+  }
+  .input {
+    margin-top: 80px;
+  }
+  .contact-us h1 {
+    font-size: 60px;
+  }
+  .map img {
+    width: 550px;
+    height: 220px;
+  }
+  .contact div h6 {
+    font-size: 16px;
+  }
+  .scrolling-active {
+    height: 140px;
+  }
+  .scrolling-active #colorLogo {
+    width: 95px;
+    height: 100px;
+  }
+  #downTown {
+    padding-top: 10%;
+  }
+  .copy-right{ 
+    padding-top: 0%;
+  }
+}
