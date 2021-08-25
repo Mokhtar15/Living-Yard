@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living Yard</title>
+    <link rel="shortcut icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/nice-select.css">
     <link rel="stylesheet" href="CSS/slick.css">
     <link rel="stylesheet" href="CSS/slick-theme.css">
     <link rel="stylesheet" href="CSS/all.min.css">
@@ -72,15 +74,15 @@
 
             <div class="footer"> 
                 <div id="clipboard" class="container">
-                    <img class="menu img-fluid" src="assets/clipboard.png" alt="">
+                    <img class="menu" src="assets/clipboard.png" alt="">
                     <p>Inqury</p>
                 </div>
                 <div id="mouse">
-                    <img class="mouse-scroll" data-scroll="second-section" src="assets/mouse.png" alt="">
+                    <div class="mouse-scroll" data-scroll="second-section"></div>
                     <p>Scroll</p>
                 </div>
                 <div class="line">
-                    <span>Hotline</span><span>16477</span>
+                    <span>Hotline</span><span><a class="tel" href="tel:16477">16477</a></span>
                 </div>
             </div>  
         </section>
@@ -118,21 +120,19 @@
                 
                 <div class="input menu-input">
                     <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                    <select class="form-select menu-select" id="inlineFormSelectPref">
-                        <option selected hidden>Prefreerd unit type</option>
+                    <select class="select-small-menu" id="inlineFormSelectPref">
+                        <option data-display="Prefreerd Time for Contacting">Penhouse</option>
                         <option value="1">Penhouse</option>
                         <option value="2">Penhouse</option>
-                        <option value="3">Penhouse</option>
                     </select>
                 </div>
                 
                 <div class="input menu-input">
                     <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                    <select class="form-select menu-select" id="inlineFormSelectPref">
-                        <option selected hidden>Prefreerd Time for Contacting</option>
-                        <option value="1">Morning</option>
-                        <option value="2">Afternon</option>
-                        <option value="3">Evening</option>
+                    <select class="select-small-menu" id="inlineFormSelectPref">
+                        <option data-display="Prefreerd Time for Contacting">Morning</option>
+                        <option value="1">Afternon</option>
+                        <option value="2">Evening</option>
                     </select>
                 </div>
                 
@@ -146,7 +146,7 @@
 
         <section class="second-section">
             <div class="container-fluid" id="about-us">
-                <div class="row align-items-center">
+                <div class="row align-items-center" id="pad">
                     <div class="col-lg-4">
                         <img class="page-img" src="assets/Group 41.png" alt="">
                     </div>
@@ -183,7 +183,7 @@
             <!-- third section -->
 
         <section class="third-section" id="projects">
-            <div class="container" id="the-loft">
+            <div class="container-fluid" id="the-loft">
                 <div class="row align-items-end" id="upper-page">
                     <div class="col-12 d-flex align-items-center justify-content-between" id="loft">
                         <img class="loft" src="assets/The loft.png" alt="">
@@ -231,7 +231,7 @@
         <!-- forth section -->
 
         <section class="forth-section">
-            <div class="container" id="downTown">
+            <div class="container-fluid" id="downTown">
                 <div class="row align-items-end" id="upper-page">
                     <div class="col-12 downtown">
                         <img src="assets/loft downtown.png" alt="">
@@ -274,7 +274,7 @@
         <!-- fifth section -->
 
         <section class="fifth-section"> 
-            <div class="container">
+            <div class="container-fluid" id="capital">
                 <div class="row align-items-end" id="upper-page">
                     <div class="col-12 LCC">
                         <img src="assets/LCC.png" alt="">
@@ -358,44 +358,42 @@
                                     <span><hr></span>
                                 </div>
                                 <form class="col row-cols-lg-auto g-3 align-items-center" id="form">
-                                    <div class="col-8 input">
+                                    <div class="col-8 input large-menu">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="floatingInput" placeholder="Fullname">
                                             <label for="floatingInput">Fullname</label>
                                         </div>
                                     </div>
 
-                                    <div class="col-8 input">
+                                    <div class="col-8 input large-menu">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="floatingInput" placeholder="Email">
                                             <label for="floatingInput">Email</label>
                                         </div>
                                     </div>
 
-                                    <div class="col-8 input">
+                                    <div class="col-8 input large-menu">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="floatingInput" placeholder="MobileNumber">
                                             <label for="floatingInput">Mobile Number</label>
                                         </div>
                                     </div>
-                                    
-                                    <div class="col-8 input">
+
+                                    <div class="col-8 input large-menu">
                                         <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                                        <select class="form-select" id="inlineFormSelectPref">
-                                            <option selected hidden>Prefreerd unit type</option>
+                                        <select class="select-menu" id="inlineFormSelectPref">
+                                            <option data-display="Prefreerd Time for Contacting">Penhouse</option>
                                             <option value="1">Penhouse</option>
                                             <option value="2">Penhouse</option>
-                                            <option value="3">Penhouse</option>
                                         </select>
                                     </div>
                                     
-                                    <div class="col-8 input">
+                                    <div class="col-8 input large-menu">
                                         <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                                        <select class="form-select" id="inlineFormSelectPref">
-                                            <option selected hidden>Prefreerd Time for Contacting</option>
-                                            <option value="1">Morning</option>
-                                            <option value="2">Afternon</option>
-                                            <option value="3">Evening</option>
+                                        <select class="select-menu" id="inlineFormSelectPref">
+                                            <option data-display="Prefreerd Time for Contacting">Morning</option>
+                                            <option value="1">Afternon</option>
+                                            <option value="2">Evening</option>
                                         </select>
                                     </div>
                                     
@@ -412,6 +410,8 @@
                     </div>
                 </section> 
     <script src="JS/jquery-3.6.0.js"></script>
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery.nice-select.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
     <script src="JS/all.min.js"></script>
     <script src="JS/slick.min.js"></script>

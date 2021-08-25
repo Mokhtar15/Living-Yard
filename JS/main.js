@@ -62,7 +62,7 @@ $(document).ready(function(){
     
     $(document).ready(function() {
 
-        var divide = 2;
+        var divide = 2.5;
         $(".mouse-scroll").click(function() {
 
             $("html, body").animate ({
@@ -73,7 +73,7 @@ $(document).ready(function(){
 
     $(document).ready(function() {
 
-        var divide = 2;
+        var divide = 2.5;
         $(".a-link").click(function() {
 
             $("html, body").animate ({
@@ -84,7 +84,7 @@ $(document).ready(function(){
     
     $(document).ready(function() {
 
-        var divide = 2;
+        var divide = 2.5;
         $(".p-link").click(function() {
 
             $("html, body").animate ({
@@ -95,7 +95,7 @@ $(document).ready(function(){
     
     $(document).ready(function() {
 
-        var divide = 2;
+        var divide = 2.5;
         $(".c-link").click(function() {
 
             $("html, body").animate ({
@@ -142,3 +142,8 @@ $(document).ready(function(){
             Close.style.display = "none";
         }
     }
+
+
+    $(document).ready(function(){
+        $('select').niceSelect();
+    })
