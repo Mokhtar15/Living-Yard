@@ -151,9 +151,9 @@ h5 {
   margin-left: 48.5%;
 }
 #mouse div {
-  width: 40px;
-  height: 60px;
-  border: #ffffff 4px solid;
+  width: 30px;
+  height: 50px;
+  border: #ffffff 3px solid;
   border-radius: 25px;
   cursor: pointer;
   position: relative;
@@ -162,7 +162,7 @@ h5 {
   content: "";
   position: absolute;
   width: 4px;
-  height: 12px;
+  height: 8px;
   left: 50%;
   background-color: #ffffff;
   transform: translateX(-50%);
@@ -220,6 +220,7 @@ h5 {
 .col-lg-4 {
   display: flex;
   justify-content: center;
+  padding-top: 2%;
 }
 .title {
   margin-left: 75px;
@@ -235,7 +236,7 @@ h5 {
 }
 .lazy {
   width: 85%;
-  margin-left: 6%;
+  margin-left: 4%;
 }
 .lazy img {
   margin-left: 28px !important;
@@ -248,7 +249,7 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 16%;
+  margin-left: 7%;
 }
 .number {
   display: flex;
@@ -268,7 +269,7 @@ h5 {
   background: url(../assets/right-arrow.png) no-repeat;
   transform: rotate(180deg);
   top: auto;
-  bottom: 0%;
+  bottom: -15%;
   left: 94%;
   width: 36px;
 }
@@ -295,7 +296,7 @@ h5 {
 .lazy .slick-prev {
   left: 86%;
   top: auto;
-  bottom: -5.5%;
+  bottom: -21%;
   width: 36px;
   background: url(../assets/right-arrow.png) no-repeat;
 }
@@ -318,7 +319,7 @@ h5 {
   width: 100%;
 }
 #the-loft {
-  padding: 5% 12%;
+  padding: 5% 8%;
 }
 .th-slider {
   margin-top: -10%;
@@ -501,7 +502,7 @@ h5 {
   background-size: contain;
 }
 #downTown {
-  padding: 5% 12%;
+  padding: 5% 8%;
 }
 .downtown {
   display: flex;
@@ -585,7 +586,7 @@ h5 {
   background-size: contain;
 }
 #capital {
-  padding: 5% 12%;
+  padding: 5% 8%;
 }
 .LCC {
   margin-top: 85px;
@@ -817,7 +818,7 @@ option {
 .scrolling-active {
   background-color: #ffffff;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
-  height: 100px;
+  height: 85px;
 }
 .scrolling-active .navbar-nav .nav-link {
   color: #967c57;
@@ -837,8 +838,8 @@ option {
 }
 .scrolling-active #colorLogo {
   display: block;
-  width: 65px;
-  height: 80px;
+  width: 55px;
+  height: 75px;
 }
 .scrolling-clipboard {
   display: none;
@@ -897,7 +898,7 @@ option {
   color: black !important;
 }
 .btn-primary:hover {
-  background-image: linear-gradient(288deg, #967c57 95%, #ffffff);
+  background-image: linear-gradient(288deg, #7b5f39 , #c8a87d);
   color: #ffffff;
   border-color: #212529;
 }
@@ -1276,7 +1277,7 @@ option {
     padding-top: 0%;
   }
   .page-img {
-    width: 420px;
+    width: 370px;
   }
   .lazy {
     width: 65%;
@@ -1319,18 +1320,24 @@ option {
   }
   .menu-form-bg {
     left: 2%;
+    width: 520px;
+    height: 540px;
   }
   .menu-input {
-    margin-top: 45px;
+    margin-top: 33px;
+    width: 400px;
   }
   .large-menu {
     margin-top: 80px;
   }
   #mouse div {
-    width: 45px;
-    height: 70px;
+    width: 35px;
+    height: 60px;
   }
   .button {
     width: 30%;
+  }
+  .menu-inqury h5 {
+    font-size: xx-large;
   }
 }

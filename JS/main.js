@@ -109,8 +109,9 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
     });
+
 
 
     var menuList = document.getElementById("menuList");
@@ -147,3 +148,4 @@ $(document).ready(function(){
     $(document).ready(function(){
         $('select').niceSelect();
     })
+
