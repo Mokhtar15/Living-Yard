@@ -684,9 +684,12 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+.map {
+  width: 100%;
+}
 .map img {
-  width: 470px;
-  height: 170px;
+  margin-left: 10%;
+  width: 80%;
   cursor: pointer;
 }
 .form {
@@ -819,6 +822,7 @@ option {
   background-color: #ffffff;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
   height: 85px;
+  transition: 350ms;
 }
 .scrolling-active .navbar-nav .nav-link {
   color: #967c57;
@@ -870,6 +874,7 @@ option {
 .menu-inqury h5 {
   margin: 10px;
   color: #967c57;
+  margin: 20px 10px;
 }
 .menu-inqury span hr {
   margin-right: 185px;
@@ -898,7 +903,7 @@ option {
   color: black !important;
 }
 .btn-primary:hover {
-  background-image: linear-gradient(288deg, #7b5f39 , #c8a87d);
+  background-image: linear-gradient(288deg, #7b5f39, #c8a87d);
   color: #ffffff;
   border-color: #212529;
 }
@@ -1151,7 +1156,6 @@ option {
     opacity: 1;
   }
   .map img {
-    width: 300px;
     height: auto;
   }
   .media {
@@ -1266,10 +1270,6 @@ option {
   .contact-us h1 {
     font-size: 60px;
   }
-  .map img {
-    width: 550px;
-    height: 220px;
-  }
   .contact div h6 {
     font-size: 16px;
   }
@@ -1320,8 +1320,8 @@ option {
   }
   .menu-form-bg {
     left: 2%;
-    width: 520px;
-    height: 540px;
+    width: 540px;
+    height: 560px;
   }
   .menu-input {
     margin-top: 33px;
@@ -1339,5 +1339,9 @@ option {
   }
   .menu-inqury h5 {
     font-size: xx-large;
+  }
+  .map img {
+    margin-left: 15%;
+    width: 70%;
   }
 }
