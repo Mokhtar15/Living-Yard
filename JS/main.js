@@ -108,7 +108,7 @@ $(document).ready(function(){
         lazyLoad: 'ondemand',
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
     });
 
@@ -149,3 +149,12 @@ $(document).ready(function(){
         $('select').niceSelect();
     })
 
+
+
+    var $status = $('.pagingInfo');
+    var $slickElement = $('.lazy');
+
+$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+    var i = (currentSlide ? currentSlide : 0) + 1;
+    $status.text(i  + "\t" + "—" + "\t" + slick.slideCount);
+  });

@@ -256,14 +256,9 @@ h5 {
   align-items: center;
 }
 .number span {
+  position: relative;
   font-size: 20px;
-  margin: 0px 4px;
-}
-.number span hr {
-  height: 2px;
-  width: 32px;
-  background-color: black;
-  opacity: 1;
+  margin: 0px 16px;
 }
 .lazy .slick-next {
   background: url(../assets/right-arrow.png) no-repeat;
@@ -321,6 +316,7 @@ h5 {
 #the-loft {
   padding: 5% 8%;
 }
+
 .th-slider {
   margin-top: -10%;
   display: flex;
@@ -331,6 +327,13 @@ h5 {
 }
 .loft {
   width: 180px;
+}
+.pagingInfo {
+  color: #002445;
+  font-size: x-large;
+}
+.cool {
+  color: #002445a1;
 }
 #loft::after {
   content: "";
@@ -1026,9 +1029,6 @@ option {
   }
   .number span {
     font-size: 15px;
-  }
-  .number span hr {
-    width: 20px;
   }
   .arrow span {
     font-size: 25px;
